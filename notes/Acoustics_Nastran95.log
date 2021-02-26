@@ -1,0 +1,256 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.28)  26 FEB 2021 17:35
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Acoustics_Nastran95.tex
+(./Acoustics_Nastran95.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count175
+\l__pdf_internal_box=\box45
+)
+(./Acoustics_Nastran95.aux)
+\openout1 = `Acoustics_Nastran95.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count176
+\scratchdimen=\dimen137
+\scratchbox=\box46
+\nofMPsegments=\count177
+\nofMParguments=\count178
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count179
+\MPscratchDim=\dimen138
+\MPnumerator=\count180
+\makeMPintoPDFobject=\count181
+\everyMPtoPDFconversion=\toks16
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 10.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<./nastran_figs/nastran_fig1.png, id=14, 696.6025pt x 1029.8475pt>
+File: ./nastran_figs/nastran_fig1.png Graphic file (type png)
+<use ./nastran_figs/nastran_fig1.png>
+Package pdftex.def Info: ./nastran_figs/nastran_fig1.png  used on input line 13
+0.
+(pdftex.def)             Requested size: 243.81453pt x 360.45203pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (7.86295pt too wide) in paragraph at lines 135--135
+[]\OT1/cmr/bx/n/14.4 Demonstration Man-ual - Acous-tic Cav-ity Anal-
+ []
+
+
+! LaTeX Error: Unknown float option `v'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 \begin{figure}[v]
+                       
+? 
+<./nastran_figs/nastran_fig2.png, id=16, 1308.89pt x 505.89pt>
+File: ./nastran_figs/nastran_fig2.png Graphic file (type png)
+<use ./nastran_figs/nastran_fig2.png>
+Package pdftex.def Info: ./nastran_figs/nastran_fig2.png  used on input line 16
+2.
+(pdftex.def)             Requested size: 327.2217pt x 126.47218pt.
+
+! LaTeX Error: Unknown float option `v'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.167 \begin{figure}[v]
+                       
+? 
+<./nastran_figs/nastran_fig3.png, id=17, 857.2025pt x 1148.29pt>
+File: ./nastran_figs/nastran_fig3.png Graphic file (type png)
+<use ./nastran_figs/nastran_fig3.png>
+Package pdftex.def Info: ./nastran_figs/nastran_fig3.png  used on input line 16
+9.
+(pdftex.def)             Requested size: 342.87492pt x 459.30786pt.
+<./nastran_figs/nastran_fig4.png, id=18, 971.63pt x 1134.2375pt>
+File: ./nastran_figs/nastran_fig4.png Graphic file (type png)
+<use ./nastran_figs/nastran_fig4.png>
+Package pdftex.def Info: ./nastran_figs/nastran_fig4.png  used on input line 17
+6.
+(pdftex.def)             Requested size: 340.07559pt x 396.98907pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./nastran_figs/nastran_fig5.png, id=19, 983.675pt x 533.995pt>
+File: ./nastran_figs/nastran_fig5.png Graphic file (type png)
+<use ./nastran_figs/nastran_fig5.png>
+Package pdftex.def Info: ./nastran_figs/nastran_fig5.png  used on input line 18
+3.
+(pdftex.def)             Requested size: 344.29141pt x 186.90105pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./nastran_figs/nastran_fig6.png, id=20, 909.3975pt x 240.9pt>
+File: ./nastran_figs/nastran_fig6.png Graphic file (type png)
+<use ./nastran_figs/nastran_fig6.png>
+Package pdftex.def Info: ./nastran_figs/nastran_fig6.png  used on input line 19
+0.
+(pdftex.def)             Requested size: 318.2939pt x 84.31625pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./nastran_figs/nastran_fig7.png, id=21, 740.7675pt x 1069.9975pt>
+File: ./nastran_figs/nastran_fig7.png Graphic file (type png)
+<use ./nastran_figs/nastran_fig7.png>
+Package pdftex.def Info: ./nastran_figs/nastran_fig7.png  used on input line 19
+7.
+(pdftex.def)             Requested size: 259.2725pt x 374.50473pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./nastran_figs/nastran_fig8.png, id=22, 1180.41pt x 1142.2675pt>
+File: ./nastran_figs/nastran_fig8.png Graphic file (type png)
+<use ./nastran_figs/nastran_fig8.png>
+Package pdftex.def Info: ./nastran_figs/nastran_fig8.png  used on input line 20
+4.
+(pdftex.def)             Requested size: 413.14969pt x 399.79962pt.
+
+Overfull \hbox (68.14969pt too wide) in paragraph at lines 204--206
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./nastran_figs/nastran_fig9.png, id=23, 1150.2975pt x 1170.3725pt>
+File: ./nastran_figs/nastran_fig9.png Graphic file (type png)
+<use ./nastran_figs/nastran_fig9.png>
+Package pdftex.def Info: ./nastran_figs/nastran_fig9.png  used on input line 21
+1.
+(pdftex.def)             Requested size: 402.61017pt x 409.6365pt.
+
+Overfull \hbox (57.61017pt too wide) in paragraph at lines 211--213
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./nastran_figs/nastran_fig10.png, id=24, 1208.515pt x 1019.81pt>
+File: ./nastran_figs/nastran_fig10.png Graphic file (type png)
+<use ./nastran_figs/nastran_fig10.png>
+Package pdftex.def Info: ./nastran_figs/nastran_fig10.png  used on input line 2
+18.
+(pdftex.def)             Requested size: 422.98659pt x 356.93884pt.
+
+Overfull \hbox (77.98659pt too wide) in paragraph at lines 218--220
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3] [4 <./nastran_figs/nastran_fig1.png>] [5] [6] [7] [8] [9 <./nastran_figs/na
+stran_fig2.png>] [10 <./nastran_figs/nastran_fig3.png>] [11 <./nastran_figs/nas
+tran_fig4.png>] [12 <./nastran_figs/nastran_fig5.png> <./nastran_figs/nastran_f
+ig6.png>] [13 <./nastran_figs/nastran_fig7.png>] [14 <./nastran_figs/nastran_fi
+g8.png>] [15 <./nastran_figs/nastran_fig9.png>] [16 <./nastran_figs/nastran_fig
+10.png>] (./Acoustics_Nastran95.aux) ) 
+Here is how much of TeX's memory you used:
+ 1232 strings out of 483183
+ 19014 string characters out of 5966291
+ 256597 words of memory out of 5000000
+ 16284 multiletter control sequences out of 15000+600000
+ 536620 words of font info for 38 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 30i,6n,25p,230b,217s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/kawerna/.texlive2019/texmf-var/fo
+nts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr17.pfb>
+Output written on Acoustics_Nastran95.pdf (16 pages, 1288754 bytes).
+PDF statistics:
+ 100 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+

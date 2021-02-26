@@ -1,0 +1,618 @@
+
+
+
+
+
+
+                                  ****
+                                *      *
+                               *        *
+                               *  N A S T R A N
+                               *        *
+                                *      *
+                                  ****
+
+
+                            INTEL COMPUTER SYSTEMS   
+                                 LINUX VERSION 
+
+                          SYSTEM RELEASE -  1995 ED.
+
+                                DISTRIBUTED BY
+
+         COMPUTER SOFTWARE MANAGEMENT AND INFORMATION CENTER (COSMIC)
+                 UNIVERSITY OF GEORGIA, ATHENS, GEORGIA 30602
+                 PHONE: (706)542-3265      FAX: (706)542-4807
+1                                                                           /    95 INTEL LINUX NASTRAN    / FEB 26, 21 / PAGE     2
+                                                                                                                                    
+0                                                                                                                                   
+                                                                                                         
+                                                                                                         
+                         INSTALLATION CENTER USER INFORMATION GIVEN IN THIS SECTION                      
+                                                                                                         
+                                     *********************************************                       
+                                     *                                           *                       
+                                     *  PLEASE READ THE COMMENT IN DEMO PROBLEM  *                       
+                                     *  D01002A ABOUT SYSTEM TIMING CONSTANTS    *                       
+                                     *                                           *                       
+                                     *********************************************                       
+                                                                                                         
+                         ===X=    TOP OF PAGE REQUEST IF 'X' IS REPLACED BY '='                          
+                                                                                                         
+1                                                                           /    95 INTEL LINUX NASTRAN    / FEB 26, 21 / PAGE     3
+                                                                                                                                    
+0                                                                                                                                   
+0*** USER INFORMATION MESSAGE 225, GINO TIME CONSTANTS ARE BEING COMPUTED
+     (SEE NASINFO FILE FOR ELIMINATION OF THESE COMPUTATIONS)
+1                                                                           /    95 INTEL LINUX NASTRAN    / FEB 26, 21 / PAGE     4
+                                                                                                                                    
+0        N A S T R A N    E X E C U T I V E    C O N T R O L    D E C K    E C H O                                                  
+0                                                                                                                                   
+                                                                                                                                    
+                                                                                                                                    
+     ID ACOUS, MSC                                                                   
+     APP DISP                                                                        
+     SOL 3,0                                                                         
+     TIME 2                                                                          
+     CEND                                                                            
+1     ACOUSTIC CAVITY                                                       /    95 INTEL LINUX NASTRAN    / FEB 26, 21 / PAGE     5
+      HARMONIC N 0                                                                                                                  
+0                                                                                                                                   
+0                                        C A S E    C O N T R O L   D E C K   E C H O                                               
+                 CARD                                                                                                               
+                 COUNT                                                                                                              
+                  1      TITLE = ACOUSTIC CAVITY                                                         
+                  2      SUBTITLE = HARMONIC N 0                                                         
+                  3      SET 1 = 4                                                                       
+                  4      METHOD = 11                                                                     
+                  5      BEGIN BULK                                                                      
+
+
+                        (NO. OF UNSORTED BULK DATA CARDS READ =   315, INCLUDING   0 COMMENT CARDS)
+0*** USER INFORMATION MESSAGE 207, BULK DATA DECK IS NOT SORTED. NASTRAN WILL RE-ORDER THE INPUT DECK.
+1     ACOUSTIC CAVITY                                                       /    95 INTEL LINUX NASTRAN    / FEB 26, 21 / PAGE     6
+      HARMONIC N 0                                                                                                                  
+0                                                                                                                                   
+0                                                 S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                    1-        AXSLOT  1.225   1.01E5  0               0                                       
+                    2-        CAXIF2  5       1       5                                                       
+                    3-        CAXIF2  6       5       6                                                       
+                    4-        CAXIF2  7       6       7                                                       
+                    5-        CAXIF2  8       7       8                                                       
+                    6-        CAXIF2  9       8       9                                                       
+                    7-        CAXIF2  10      9       10                                                      
+                    8-        CAXIF2  11      10      11                                                      
+                    9-        CAXIF2  12      11      12                                                      
+                   10-        CAXIF2  13      12      13                                                      
+                   11-        CAXIF2  14      13      14                                                      
+                   12-        CAXIF2  15      14      15                                                      
+                   13-        CAXIF2  16      15      16                                                      
+                   14-        CAXIF2  17      16      17                                                      
+                   15-        CAXIF2  18      17      18                                                      
+                   16-        CAXIF2  19      18      19                                                      
+                   17-        CAXIF2  20      19      20                                                      
+                   18-        CAXIF2  21      20      21                                                      
+                   19-        CAXIF2  22      21      22                                                      
+                   20-        CAXIF2  23      22      23                                                      
+                   21-        CAXIF2  24      23      2                                                       
+                   22-        CAXIF2  25      2       24                                                      
+                   23-        CAXIF2  26      24      25                                                      
+                   24-        CAXIF2  27      25      3                                                       
+                   25-        CAXIF2  28      3       26                                                      
+                   26-        CAXIF2  29      26      27                                                      
+                   27-        CAXIF2  30      27      28                                                      
+                   28-        CAXIF2  31      28      29                                                      
+                   29-        CAXIF2  32      29      30                                                      
+                   30-        CAXIF2  33      30      31                                                      
+                   31-        CAXIF2  34      31      32                                                      
+                   32-        CAXIF2  35      32      33                                                      
+                   33-        CAXIF2  36      33      34                                                      
+                   34-        CAXIF2  37      34      35                                                      
+                   35-        CAXIF2  38      35      36                                                      
+                   36-        CAXIF2  39      36      37                                                      
+                   37-        CAXIF2  40      37      38                                                      
+                   38-        CAXIF2  41      38      39                                                      
+                   39-        CAXIF2  42      39      40                                                      
+                   40-        CAXIF2  43      40      41                                                      
+                   41-        CAXIF2  44      41      42                                                      
+                   42-        CAXIF2  45      42      43                                                      
+                   43-        CAXIF2  46      43      44                                                      
+                   44-        CAXIF2  47      44      4                                                       
+                   45-        CAXIF2  48      4       45                                                      
+                   46-        CAXIF2  49      45      46                                                      
+                   47-        CAXIF2  50      46      1                                                       
+1     ACOUSTIC CAVITY                                                       /    95 INTEL LINUX NASTRAN    / FEB 26, 21 / PAGE     7
+      HARMONIC N 0                                                                                                                  
+
+                                                                                                                                    
+
+                                                  S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                   48-        CAXIF3  51      9       73      84                                              
+                   49-        CAXIF3  52      73      9       85                                              
+                   50-        CAXIF3  53      83      62      88                                              
+                   51-        CAXIF3  54      52      83      88                                              
+                   52-        CAXIF3  55      51      81      101                                             
+                   53-        CAXIF3  56      82      51      101                                             
+                   54-        CAXIF3  57      37      61      70                                              
+                   55-        CAXIF3  58      72      56      73                                              
+                   56-        CAXIF3  59      19      57      64                                              
+                   57-        CAXIF3  60      17      59      65                                              
+                   58-        CAXIF3  61      40      56      72                                              
+                   59-        CAXIF3  62      14      15      63                                              
+                   60-        CAXIF3  63      15      60      63                                              
+                   61-        CAXIF3  64      22      52      68                                              
+                   62-        CAXIF3  65      56      41      66                                              
+                   63-        CAXIF3  66      36      37      70                                              
+                   64-        CAXIF3  67      14      63      74                                              
+                   65-        CAXIF3  68      26      27      62                                              
+                   66-        CAXIF3  69      57      20      67                                              
+                   67-        CAXIF3  70      59      18      64                                              
+                   68-        CAXIF3  71      60      16      65                                              
+                   69-        CAXIF3  72      15      16      60                                              
+                   70-        CAXIF3  73      17      18      59                                              
+                   71-        CAXIF3  74      19      20      57                                              
+                   72-        CAXIF3  75      13      14      74                                              
+                   73-        CAXIF3  76      42      58      66                                              
+                   74-        CAXIF3  77      61      38      71                                              
+                   75-        CAXIF3  78      71      39      72                                              
+                   76-        CAXIF3  79      67      21      68                                              
+                   77-        CAXIF3  80      42      43      58                                              
+                   78-        CAXIF3  81      37      38      61                                              
+                   79-        CAXIF3  82      39      40      72                                              
+                   80-        CAXIF3  83      40      41      56                                              
+                   81-        CAXIF3  84      20      21      67                                              
+                   82-        CAXIF3  85      18      19      64                                              
+                   83-        CAXIF3  86      16      17      65                                              
+                   84-        CAXIF3  87      21      22      68                                              
+                   85-        CAXIF3  88      48      13      74                                              
+                   86-        CAXIF3  89      41      42      66                                              
+                   87-        CAXIF3  90      38      39      71                                              
+                   88-        CAXIF3  91      45      46      51                                              
+                   89-        CAXIF3  92      22      23      52                                              
+                   90-        CAXIF3  93      62      27      75                                              
+                   91-        CAXIF3  94      35      36      69                                              
+                   92-        CAXIF3  95      27      28      75                                              
+                   93-        CAXIF3  96      6       7       76                                              
+                   94-        CAXIF3  97      12      13      48                                              
+1     ACOUSTIC CAVITY                                                       /    95 INTEL LINUX NASTRAN    / FEB 26, 21 / PAGE     8
+      HARMONIC N 0                                                                                                                  
+
+                                                                                                                                    
+
+                                                  S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                   95-        CAXIF3  98      11      12      77                                              
+                   96-        CAXIF3  99      10      11      50                                              
+                   97-        CAXIF3  100     7       8       54                                              
+                   98-        CAXIF3  101     34      35      55                                              
+                   99-        CAXIF3  102     28      29      53                                              
+                  100-        CAXIF3  103     30      31      49                                              
+                  101-        CAXIF3  104     32      33      47                                              
+                  102-        CAXIF3  105     31      32      80                                              
+                  103-        CAXIF3  106     29      30      79                                              
+                  104-        CAXIF3  107     33      34      78                                              
+                  105-        CAXIF3  108     28      53      75                                              
+                  106-        CAXIF3  109     69      36      70                                              
+                  107-        CAXIF3  110     7       54      76                                              
+                  108-        CAXIF3  111     12      48      77                                              
+                  109-        CAXIF3  112     50      11      77                                              
+                  110-        CAXIF3  113     34      55      78                                              
+                  111-        CAXIF3  114     49      31      80                                              
+                  112-        CAXIF3  115     53      29      79                                              
+                  113-        CAXIF3  116     32      47      80                                              
+                  114-        CAXIF3  117     30      49      79                                              
+                  115-        CAXIF3  118     47      33      78                                              
+                  116-        CAXIF3  119     55      35      69                                              
+                  117-        CAXIF3  120     43      44      82                                              
+                  118-        CAXIF3  121     5       6       81                                              
+                  119-        CAXIF3  122     58      43      82                                              
+                  120-        CAXIF3  123     6       76      81                                              
+                  121-        CAXIF3  124     24      25      83                                              
+                  122-        CAXIF3  125     8       9       84                                              
+                  123-        CAXIF3  126     9       10      85                                              
+                  124-        CAXIF3  127     72      73      99                                              
+                  125-        CAXIF3  128     73      56      100                                             
+                  126-        CAXIF3  129     46      1       102                                             
+                  127-        CAXIF3  130     1       5       102                                             
+                  128-        CAXIF3  131     44      4       103                                             
+                  129-        CAXIF3  132     4       45      103                                             
+                  130-        CAXIF3  133     25      3       104                                             
+                  131-        CAXIF3  134     23      2       105                                             
+                  132-        CAXIF3  135     3       26      104                                             
+                  133-        CAXIF3  136     2       24      105                                             
+                  134-        CAXIF3  137     84      73      100                                             
+                  135-        CAXIF3  138     73      85      99                                              
+                  136-        CAXIF3  139     54      8       84                                              
+                  137-        CAXIF3  140     10      50      85                                              
+                  138-        CAXIF3  141     90      54      100                                             
+                  139-        CAXIF3  142     50      94      99                                              
+                  140-        CAXIF3  143     97      69      98                                              
+                  141-        CAXIF3  144     74      97      98                                              
+1     ACOUSTIC CAVITY                                                       /    95 INTEL LINUX NASTRAN    / FEB 26, 21 / PAGE     9
+      HARMONIC N 0                                                                                                                  
+
+                                                                                                                                    
+
+                                                  S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                  142-        CAXIF3  145     70      61      96                                              
+                  143-        CAXIF3  146     63      60      95                                              
+                  144-        CAXIF3  147     69      70      98                                              
+                  145-        CAXIF3  148     74      63      97                                              
+                  146-        CAXIF3  149     65      59      92                                              
+                  147-        CAXIF3  150     60      65      93                                              
+                  148-        CAXIF3  151     61      71      94                                              
+                  149-        CAXIF3  152     63      95      97                                              
+                  150-        CAXIF3  153     64      57      89                                              
+                  151-        CAXIF3  154     59      64      91                                              
+                  152-        CAXIF3  155     70      96      98                                              
+                  153-        CAXIF3  156     60      93      95                                              
+                  154-        CAXIF3  157     57      67      87                                              
+                  155-        CAXIF3  158     61      94      96                                              
+                  156-        CAXIF3  159     66      58      90                                              
+                  157-        CAXIF3  160     65      92      93                                              
+                  158-        CAXIF3  161     68      52      88                                              
+                  159-        CAXIF3  162     67      68      86                                              
+                  160-        CAXIF3  163     59      91      92                                              
+                  161-        CAXIF3  164     64      89      91                                              
+                  162-        CAXIF3  165     62      75      88                                              
+                  163-        CAXIF3  166     75      53      86                                              
+                  164-        CAXIF3  167     57      87      89                                              
+                  165-        CAXIF3  168     53      79      87                                              
+                  166-        CAXIF3  169     86      53      87                                              
+                  167-        CAXIF3  170     75      86      88                                              
+                  168-        CAXIF3  171     67      86      87                                              
+                  169-        CAXIF3  172     86      68      88                                              
+                  170-        CAXIF3  173     79      49      89                                              
+                  171-        CAXIF3  174     87      79      89                                              
+                  172-        CAXIF3  175     76      54      90                                              
+                  173-        CAXIF3  176     89      49      91                                              
+                  174-        CAXIF3  177     49      80      91                                              
+                  175-        CAXIF3  178     80      47      92                                              
+                  176-        CAXIF3  179     91      80      92                                              
+                  177-        CAXIF3  180     92      47      93                                              
+                  178-        CAXIF3  181     47      78      93                                              
+                  179-        CAXIF3  182     50      77      94                                              
+                  180-        CAXIF3  183     78      55      95                                              
+                  181-        CAXIF3  184     93      78      95                                              
+                  182-        CAXIF3  185     77      48      96                                              
+                  183-        CAXIF3  186     94      77      96                                              
+                  184-        CAXIF3  187     48      74      98                                              
+                  185-        CAXIF3  188     95      55      97                                              
+                  186-        CAXIF3  189     55      69      97                                              
+                  187-        CAXIF3  190     96      48      98                                              
+                  188-        CAXIF3  191     66      90      100                                             
+1     ACOUSTIC CAVITY                                                       /    95 INTEL LINUX NASTRAN    / FEB 26, 21 / PAGE    10
+      HARMONIC N 0                                                                                                                  
+
+                                                                                                                                    
+
+                                                  S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                  189-        CAXIF3  192     94      71      99                                              
+                  190-        CAXIF3  193     71      72      99                                              
+                  191-        CAXIF3  194     56      66      100                                             
+                  192-        CAXIF3  195     82      44      103                                             
+                  193-        CAXIF3  196     5       81      102                                             
+                  194-        CAXIF3  197     90      58      101                                             
+                  195-        CAXIF3  198     76      90      101                                             
+                  196-        CAXIF3  199     52      23      105                                             
+                  197-        CAXIF3  200     26      62      104                                             
+                  198-        CAXIF3  201     51      46      102                                             
+                  199-        CAXIF3  202     45      51      103                                             
+                  200-        CAXIF3  203     58      82      101                                             
+                  201-        CAXIF3  204     81      76      101                                             
+                  202-        CAXIF3  205     51      82      103                                             
+                  203-        CAXIF3  206     81      51      102                                             
+                  204-        CAXIF3  207     62      83      104                                             
+                  205-        CAXIF3  208     83      52      105                                             
+                  206-        CAXIF3  209     83      25      104                                             
+                  207-        CAXIF3  210     24      83      105                                             
+                  208-        CAXIF3  211     54      84      100                                             
+                  209-        CAXIF3  212     85      50      99                                              
+                  210-        EIGR    11      GIV     20.0    2000.0          0                               
+                  211-        GRIDF   1       0.0500000.00E+00                                                
+                  212-        GRIDF   2       0.0500001.000000                                                
+                  213-        GRIDF   3       0.2000001.000000                                                
+                  214-        GRIDF   4       0.2000000.00E+00                                                
+                  215-        GRIDF   5       0.0500000.050000                                                
+                  216-        GRIDF   6       0.0500000.100000                                                
+                  217-        GRIDF   7       0.0500000.150000                                                
+                  218-        GRIDF   8       0.0500000.200000                                                
+                  219-        GRIDF   9       0.0500000.250000                                                
+                  220-        GRIDF   10      0.0500000.300000                                                
+                  221-        GRIDF   11      0.0500000.350000                                                
+                  222-        GRIDF   12      0.0500000.400000                                                
+                  223-        GRIDF   13      0.0500000.450000                                                
+                  224-        GRIDF   14      0.0500000.500000                                                
+                  225-        GRIDF   15      0.0500000.550000                                                
+                  226-        GRIDF   16      0.0500000.600000                                                
+                  227-        GRIDF   17      0.0500000.650000                                                
+                  228-        GRIDF   18      0.0500000.700000                                                
+                  229-        GRIDF   19      0.0500000.750000                                                
+                  230-        GRIDF   20      0.0500000.800000                                                
+                  231-        GRIDF   21      0.0500000.850000                                                
+                  232-        GRIDF   22      0.0500000.900000                                                
+                  233-        GRIDF   23      0.0500000.950000                                                
+                  234-        GRIDF   24      0.1000001.000000                                                
+                  235-        GRIDF   25      0.1500001.000000                                                
+1     ACOUSTIC CAVITY                                                       /    95 INTEL LINUX NASTRAN    / FEB 26, 21 / PAGE    11
+      HARMONIC N 0                                                                                                                  
+
+                                                                                                                                    
+
+                                                  S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                  236-        GRIDF   26      0.2000000.950000                                                
+                  237-        GRIDF   27      0.2000000.900000                                                
+                  238-        GRIDF   28      0.2000000.850000                                                
+                  239-        GRIDF   29      0.2000000.800000                                                
+                  240-        GRIDF   30      0.2000000.750000                                                
+                  241-        GRIDF   31      0.2000000.700000                                                
+                  242-        GRIDF   32      0.2000000.650000                                                
+                  243-        GRIDF   33      0.2000000.600000                                                
+                  244-        GRIDF   34      0.2000000.550000                                                
+                  245-        GRIDF   35      0.2000000.500000                                                
+                  246-        GRIDF   36      0.2000000.450000                                                
+                  247-        GRIDF   37      0.2000000.400000                                                
+                  248-        GRIDF   38      0.2000000.350000                                                
+                  249-        GRIDF   39      0.2000000.300000                                                
+                  250-        GRIDF   40      0.2000000.250000                                                
+                  251-        GRIDF   41      0.2000000.200000                                                
+                  252-        GRIDF   42      0.2000000.150000                                                
+                  253-        GRIDF   43      0.2000000.100000                                                
+                  254-        GRIDF   44      0.2000000.050000                                                
+                  255-        GRIDF   45      0.1500000.00E+00                                                
+                  256-        GRIDF   46      0.1000000.00E+00                                                
+                  257-        GRIDF   47      0.1566990.625000                                                
+                  258-        GRIDF   48      0.0933010.425000                                                
+                  259-        GRIDF   49      0.1566990.725000                                                
+                  260-        GRIDF   50      0.0920870.325368                                                
+                  261-        GRIDF   51      0.1250000.046910                                                
+                  262-        GRIDF   52      0.0882750.924770                                                
+                  263-        GRIDF   53      0.1566990.825000                                                
+                  264-        GRIDF   54      0.0920870.174632                                                
+                  265-        GRIDF   55      0.1566990.525000                                                
+                  266-        GRIDF   56      0.1586540.225000                                                
+                  267-        GRIDF   57      0.0933010.775000                                                
+                  268-        GRIDF   58      0.1566990.125000                                                
+                  269-        GRIDF   59      0.0933010.675000                                                
+                  270-        GRIDF   60      0.0933010.575000                                                
+                  271-        GRIDF   61      0.1566990.375000                                                
+                  272-        GRIDF   62      0.1617250.924770                                                
+                  273-        GRIDF   63      0.0933010.525000                                                
+                  274-        GRIDF   64      0.0933010.725000                                                
+                  275-        GRIDF   65      0.0933010.625000                                                
+                  276-        GRIDF   66      0.1577960.175000                                                
+                  277-        GRIDF   67      0.0933010.825000                                                
+                  278-        GRIDF   68      0.0920760.874990                                                
+                  279-        GRIDF   69      0.1566990.475000                                                
+                  280-        GRIDF   70      0.1566990.425000                                                
+                  281-        GRIDF   71      0.1566990.325000                                                
+                  282-        GRIDF   72      0.1589800.275000                                                
+1     ACOUSTIC CAVITY                                                       /    95 INTEL LINUX NASTRAN    / FEB 26, 21 / PAGE    12
+      HARMONIC N 0                                                                                                                  
+
+                                                                                                                                    
+
+                                                  S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                  283-        GRIDF   73      0.1135270.250000                                                
+                  284-        GRIDF   74      0.0933010.475000                                                
+                  285-        GRIDF   75      0.1579240.874990                                                
+                  286-        GRIDF   76      0.0917320.125142                                                
+                  287-        GRIDF   77      0.0933010.375000                                                
+                  288-        GRIDF   78      0.1566990.575000                                                
+                  289-        GRIDF   79      0.1566990.775000                                                
+                  290-        GRIDF   80      0.1566990.675000                                                
+                  291-        GRIDF   81      0.0880560.076486                                                
+                  292-        GRIDF   82      0.1616830.076462                                                
+                  293-        GRIDF   83      0.1250000.956839                                                
+                  294-        GRIDF   84      0.0861490.214926                                                
+                  295-        GRIDF   85      0.0861490.285074                                                
+                  296-        GRIDF   86      0.1250000.850000                                                
+                  297-        GRIDF   87      0.1250000.800000                                                
+                  298-        GRIDF   88      0.1250000.901060                                                
+                  299-        GRIDF   89      0.1250000.750000                                                
+                  300-        GRIDF   90      0.1247400.150006                                                
+                  301-        GRIDF   91      0.1250000.700000                                                
+                  302-        GRIDF   92      0.1250000.650000                                                
+                  303-        GRIDF   93      0.1250000.600000                                                
+                  304-        GRIDF   94      0.1250000.350000                                                
+                  305-        GRIDF   95      0.1250000.550000                                                
+                  306-        GRIDF   96      0.1250000.400000                                                
+                  307-        GRIDF   97      0.1250000.500000                                                
+                  308-        GRIDF   98      0.1250000.450000                                                
+                  309-        GRIDF   99      0.1240150.300634                                                
+                  310-        GRIDF   100     0.1240460.199366                                                
+                  311-        GRIDF   101     0.1249090.100193                                                
+                  312-        GRIDF   102     0.0866030.036603                                                
+                  313-        GRIDF   103     0.1633970.036603                                                
+                  314-        GRIDF   104     0.1636520.963652                                                
+                  315-        GRIDF   105     0.0863480.963652                                                
+                              ENDDATA
+1     ACOUSTIC CAVITY                                                       /    95 INTEL LINUX NASTRAN    / FEB 26, 21 / PAGE    13
+      HARMONIC N 0                                                                                                                  
+0                                                                                                                                   
+0*** USER INFORMATION MESSAGES FROM RESEQUENCING PROCESSOR - BANDIT     (CRI= 1,  MTH= 3,  MPC= 0,  DEP=-1,  PCH=-1)
+
+                               BEFORE RESEQUENCING - - -
+                                        BANDWIDTH          104
+                                        PROFILE           3074
+                                        MAX WAVEFRONT       51
+                                        AVG WAVEFRONT   29.276
+                                        RMS WAVEFRONT   32.360
+                                        RMS BANDWIDTH   39.522
+
+                               AFTER RESEQUENCING BY GIBBS-POOLE-STOCKMEYER (GPS) ALGORITHM - - -
+                                        BANDWIDTH            8
+                                        PROFILE            680
+                                        MAX WAVEFRONT        8
+                                        AVG WAVEFRONT    6.476
+                                        RMS WAVEFRONT    6.563
+                                        RMS BANDWIDTH    6.570
+
+
+                                                     *** BANDIT SUMMARY ***
+
+                                                                        BEFORE     AFTER
+                                        BANDWIDTH (B)                      104         8
+                                        PROFILE (P)                       3074       680
+                                        MAXIMUM WAVEFRONT (C-MAX)           51         8
+                                        AVERAGE WAVEFRONT (C-AVG)       29.276     6.476
+                                        RMS WAVEFRONT (C-RMS)           32.360     6.563
+                                        RMS BANDWITCH (B-RMS)           39.522     6.570
+                                        NUMBER OF GRID POINTS (N)                    105
+                                        NUMBER OF ELEMENTS (NON-RIGID)               208
+                                        NUMBER OF RIGID ELEMENTS PROCESSED*            0
+                                        NUMBER OF MPC  EQUATIONS PROCESSED*            0
+                                        NUMBER OF COMPONENTS                           1
+                                        MAXIMUM NODAL DEGREE                           7
+                                        MINIMUM NODAL DEGREE                           3
+                                        NUMBER OF UNIQUE EDGES                       266
+                                        MATRIX DENSITY, PERCENT                    5.778
+                                        NUMBER OF POINTS OF ZERO DEGREE                0
+                                        BANDIT OPEN CORE                        13998969
+                                        CRITERION*                         RMS WAVEFRONT
+                                        METHOD USED*                                 GPS
+                                        NO. OF SEQGP CARDS GENERATED                  27
+
+                               (* THESE DEFAULT OPTIONS CAN BE OVERRIDDEN BY THE NASTRAN CARD)
+1     ACOUSTIC CAVITY                                                       /    95 INTEL LINUX NASTRAN    / FEB 26, 21 / PAGE    14
+      HARMONIC N 0                                                                                                                  
+0                                                                                                                                   
+
+
+                                   S Y S T E M  G E N E R A T E D  S E Q G P  C A R D S
+
+                         SEQGP          1     105       2      10       3       1       4      97
+                         SEQGP          5     104       6     100       7      95       8      90
+                         SEQGP          9      85      10      80      11      75      12      70
+                         SEQGP         13      65      14      60      15      55      16      50
+                         SEQGP         17      45      18      40      19      35      20      30
+                         SEQGP         21      25      22      20      23      15      24       5
+                         SEQGP         25       4      26       2      27       6      28      11
+                         SEQGP         29      16      30      21      31      26      32      31
+                         SEQGP         33      36      34      41      35      46      36      51
+                         SEQGP         37      56      38      61      39      66      40      71
+                         SEQGP         41      76      42      81      43      86      44      91
+                         SEQGP         45     101      46     103      47      37      48      64
+                         SEQGP         49      27      50      74      51      98      52      14
+                         SEQGP         53      17      54      89      55      47      56      77
+                         SEQGP         57      29      58      87      59      39      60      49
+                         SEQGP         61      62      62       7      63      54      64      34
+                         SEQGP         65      44      66      82      67      24      68      19
+                         SEQGP         69      52      70      57      71      67      72      72
+                         SEQGP         73      78      74      59      75      12      76      94
+                         SEQGP         77      69      78      42      79      22      80      32
+                         SEQGP         81      99      82      92      83       8      84      84
+                         SEQGP         85      79      86      18      87      23      88      13
+                         SEQGP         89      28      90      88      91      33      92      38
+                         SEQGP         93      43      94      68      95      48      96      63
+                         SEQGP         97      53      98      58      99      73     100      83
+                         SEQGP        101      93     102     102     103      96     104       3
+                         SEQGP        105       9
+0         **NO ERRORS FOUND - EXECUTE NASTRAN PROGRAM**
+0*** USER WARNING MESSAGE 2222, METHOD OF NORMALIZATION ON EIGR CARD NOT SPECIFIED. DEFAULT OF 'MASS' WILL BE USED
+0*** USER INFORMATION MESSAGE 238, TURN DIAG 38 ON FOR ADDITIONAL ELEMENT PROCESSING INFORMATION
+
+0*** USER INFORMATION MESSAGE 3113,
+     EMG MODULE PROCESSING DOUBLE PRECISION AXIF2    ELEMENTS (ELEMENT TYPE  47) STARTING WITH ID        5
+0*** USER INFORMATION MESSAGE 3113,
+     EMG MODULE PROCESSING DOUBLE PRECISION AXIF3    ELEMENTS (ELEMENT TYPE  48) STARTING WITH ID       51
+0*** USER INFORMATION MESSAGE 2016, GIVENS TIME ESTIMATE IS        0 SECONDS.
+                                    PROBLEM SIZE IS     105, SPILL WILL OCCUR FOR THIS CORE AT A PROBLEM SIZE OF    3741 .
+1     ACOUSTIC CAVITY                                                       /    95 INTEL LINUX NASTRAN    / FEB 26, 21 / PAGE    15
+      HARMONIC N 0                                                                                                                  
+0                                                                                                                                   
+ 
+ 
+                              E I G E N V A L U E   A N A L Y S I S   S U M M A R Y   (GIVENS METHOD)
+
+
+
+                                    NUMBER OF EIGENVALUES EXTRACTED . . . . . . .       105
+
+                                    NUMBER OF EIGENVECTORS COMPUTED . . . . . . .        33
+
+                                    NUMBER OF EIGENVALUE CONVERGENCE FAILURES . .         0
+
+                                    NUMBER OF EIGENVECTOR CONVERGENCE FAILURES. .         0
+
+
+                                    REASON FOR TERMINATION. . . . . . . . . . . .         1*
+
+
+                                    LARGEST OFF-DIAGONAL MODAL MASS TERM. . . . .  0.00E+00
+
+                                                                            . . .         0
+                                              MODE PAIR. . . . . . . . . . .
+                                                                            . . .         0
+
+                                    NUMBER OF OFF-DIAG0NAL MODAL MASS
+                                         TERMS FAILING CRITERION. . . . . . . . .         0
+
+
+                                    (* NORMAL TERMINATION)
+1     ACOUSTIC CAVITY                                                       /    95 INTEL LINUX NASTRAN    / FEB 26, 21 / PAGE    16
+      HARMONIC N 0                                                                                                                  
+0                                                                                                                                   
+ 
+                                              R E A L   E I G E N V A L U E S
+
+   MODE    EXTRACTION       EIGENVALUE            RADIAN              CYCLIC           GENERALIZED         GENERALIZED
+    NO.       ORDER                              FREQUENCY           FREQUENCY            MASS              STIFFNESS
+
+        1       105        8.152405E+05        9.029067E+02        1.437021E+02        1.000000E+00        8.152405E+05             
+        2       103        3.279206E+06        1.810858E+03        2.882070E+02        1.000000E+00        3.279206E+06             
+        3       102        7.446395E+06        2.728808E+03        4.343033E+02        1.000000E+00        7.446395E+06             
+        4       101        1.340932E+07        3.661874E+03        5.828054E+02        1.000000E+00        1.340932E+07             
+        5       100        1.831643E+07        4.279770E+03        6.811465E+02        1.000000E+00        1.831643E+07             
+        6        99        1.918413E+07        4.379969E+03        6.970938E+02        1.000000E+00        1.918413E+07             
+        7        98        2.130578E+07        4.615819E+03        7.346304E+02        1.000000E+00        2.130578E+07             
+        8        97        2.182328E+07        4.671540E+03        7.434986E+02        1.000000E+00        2.182328E+07             
+        9        96        2.627252E+07        5.125672E+03        8.157761E+02        1.000000E+00        2.627252E+07             
+       10        95        3.131038E+07        5.595567E+03        8.905622E+02        1.000000E+00        3.131038E+07             
+       11        94        3.261641E+07        5.711078E+03        9.089463E+02        1.000000E+00        3.261641E+07             
+       12        93        4.104114E+07        6.406336E+03        1.019600E+03        1.000000E+00        4.104114E+07             
+       13        92        4.364450E+07        6.606399E+03        1.051441E+03        1.000000E+00        4.364450E+07             
+       14        91        5.170526E+07        7.190637E+03        1.144425E+03        1.000000E+00        5.170526E+07             
+       15        90        5.858784E+07        7.654270E+03        1.218215E+03        1.000000E+00        5.858784E+07             
+       16        89        6.470232E+07        8.043775E+03        1.280207E+03        1.000000E+00        6.470232E+07             
+       17        88        7.642346E+07        8.742051E+03        1.391341E+03        1.000000E+00        7.642346E+07             
+       18        87        8.016846E+07        8.953685E+03        1.425023E+03        1.000000E+00        8.016846E+07             
+       19        86        8.036350E+07        8.964569E+03        1.426755E+03        1.000000E+00        8.036350E+07             
+       20        85        8.160071E+07        9.033312E+03        1.437696E+03        1.000000E+00        8.160071E+07             
+       21        84        8.454388E+07        9.194774E+03        1.463394E+03        1.000000E+00        8.454388E+07             
+       22        83        9.008953E+07        9.491551E+03        1.510627E+03        1.000000E+00        9.008953E+07             
+       23        82        9.748674E+07        9.873537E+03        1.571422E+03        1.000000E+00        9.748674E+07             
+       24        81        9.795093E+07        9.897017E+03        1.575159E+03        1.000000E+00        9.795093E+07             
+       25        80        9.910916E+07        9.955358E+03        1.584444E+03        1.000000E+00        9.910916E+07             
+       26        79        1.078130E+08        1.038330E+04        1.652554E+03        1.000000E+00        1.078130E+08             
+       27        78        1.203809E+08        1.097182E+04        1.746220E+03        1.000000E+00        1.203809E+08             
+       28        77        1.210850E+08        1.100386E+04        1.751319E+03        1.000000E+00        1.210850E+08             
+       29        76        1.222534E+08        1.105683E+04        1.759748E+03        1.000000E+00        1.222534E+08             
+       30        75        1.361004E+08        1.166621E+04        1.856734E+03        1.000000E+00        1.361004E+08             
+       31        74        1.465052E+08        1.210394E+04        1.926401E+03        1.000000E+00        1.465052E+08             
+       32        73        1.508507E+08        1.228213E+04        1.954762E+03        1.000000E+00        1.508507E+08             
+       33        72        1.547371E+08        1.243934E+04        1.979782E+03        1.000000E+00        1.547371E+08             
+
+
+
+
+                                        * * * END OF JOB * * *
+1
+ JOB TITLE =  ACOUSTIC CAVITY                                                    
+ DATE:  2/26/21
+ END TIME: 17:41:17
+ TOTAL WALL CLOCK TIME      0 SEC.
+ 
